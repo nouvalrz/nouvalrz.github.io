@@ -10,6 +10,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.tilt-card {
+  transform-style: preserve-3d;
+}
+
+.tilt-card-content {
+  transform: translateZ(50px);
+}
+
 @layer utilities {
   .main-px {
     @apply px-4 md:px-6 lg:px-8;
