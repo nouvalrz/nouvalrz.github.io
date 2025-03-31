@@ -20,12 +20,15 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Parallax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
 </head>
 
-<body class="transition">
-  <header class="dark:bg-black fixed top-0 left-0 w-full main-px py-3 bg-white">
-    <div class="container dark:text-white text-black flex mx-auto justify-between">
+
+<body class="transition dark:bg-black bg-white">
+  <header class="dark:bg-black fixed top-0 left-0 w-full main-px py-3 bg-white   z-[100]">
+    <div class="container dark:text-white text-black flex mx-auto justify-between items-center">
       <p class="font-[Urbanist] text-2xl font-semibold">Nouval Rizky</p>
       <div class="flex flex-row gap-6">
         <nav class="md:flex hidden flex-row gap-6 items-center">
@@ -93,8 +96,34 @@
       </nav>
     </div>
   </header>
-  <main>
-
+  <main class="mt-16">
+    <section id="jumbotron" class="main-px py-6">
+      <div class="container mx-auto flex lg:flex-row lg:justify-between flex-col items-center gap-8 lg:min-h-[480px]">
+        <div class="order-5 lg:order-0 dark:text-white flex flex-col lg:items-start items-center">
+          <h1 class="font-[Urbanist] font-bold text-5xl md:text-6xl">Nouval Rizky</h1>
+          <p class="">a frontend developer</p>
+          <a href="#about"
+            class="inline-block border border-black py-2 px-3 min-h-[44px] rounded text-black hover:bg-black hover:text-white transition mt-4 lg:mt-6">About
+            me</a>
+        </div>
+        <div class="text-white relative" id="profile-parallax">
+          <div data-depth="0.3">
+            <img src="./public/images/profile.webp" alt="profile-picture" class="rounded-full w-64">
+          </div>
+          <div data-depth="0.6"
+            class="bg-white shadow-lg font-semibold  text-black p-1 rounded -translate-x-12 translate-y-12">
+            <p>Observational</p>
+          </div>
+          <div data-depth="0.5"
+            class="bg-white shadow-lg font-semibold  text-black p-1 rounded translate-x-56 translate-y-24">
+            <p>Logical</p>
+          </div>
+          <div data-depth="0.7" class="bg-white shadow-lg font-semibold  text-black p-1 rounded translate-y-48">
+            <p>Creative</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 

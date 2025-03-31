@@ -17,6 +17,7 @@ if (navButton && navIcon && mobileNav) {
   });
 }
 
+
 const themeButton = document.querySelector("#theme-button");
 const themeIcon = document.querySelector("#theme-icon");
 
@@ -33,3 +34,10 @@ if (themeButton && themeIcon) {
     }
   })
 }
+
+let profileParallax = document.querySelector("#profile-parallax");
+let parallaxInstance = new Parallax(profileParallax, {
+  relativeInput: true, // Efek berdasarkan pergerakan mouse
+  clipRelativeInput: true
+});
+
