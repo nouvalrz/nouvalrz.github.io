@@ -23,41 +23,47 @@
 
 </head>
 
-<body>
+<body class="transition">
   <header class="dark:bg-black fixed top-0 left-0 w-full main-px py-3 bg-white">
     <div class="container dark:text-white text-black flex mx-auto justify-between">
       <p class="font-[Urbanist] text-2xl font-semibold">Nouval Rizky</p>
-      <nav class="md:flex hidden flex-row gap-6">
-        <a href="" class="group transition duration-150 inline-block">Home
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
-        </a>
-        <a href="" class="group transition duration-150 inline-block">About
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
-        </a>
-        <a href="" class="group transition duration-150 inline-block">Experience
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
-        </a>
-        <a href="" class="group transition duration-150 inline-block">Projects
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
-        </a>
-        <a href="" class="group transition duration-150 inline-block">Certificates
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
-        </a>
-        <a href="" class="group transition duration-150 inline-block">Contact
-          <span
-            class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
-        </a>
-      </nav>
-      <button class="md:hidden block" id="nav-button">
-        <i class="fa-solid fa-bars" id="nav-icon"></i>
-      </button>
+      <div class="flex flex-row gap-6">
+        <nav class="md:flex hidden flex-row gap-6 items-center">
+          <a href="" class="group transition duration-150 inline-block">Home
+            <span
+              class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
+          </a>
+          <a href="" class="group transition duration-150 inline-block">About
+            <span
+              class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
+          </a>
+          <a href="" class="group transition duration-150 inline-block">Experience
+            <span
+              class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
+          </a>
+          <a href="" class="group transition duration-150 inline-block">Projects
+            <span
+              class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
+          </a>
+          <a href="" class="group transition duration-150 inline-block">Certificates
+            <span
+              class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
+          </a>
+          <a href="" class="group transition duration-150 inline-block">Contact
+            <span
+              class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
+          </a>
+        </nav>
+        <button id="theme-button">
+          <i class="fa-solid fa-sun" id="theme-icon"></i>
+        </button>
+        <button class="md:hidden block" id="nav-button">
+          <i class="fa-solid fa-bars" id="nav-icon"></i>
+        </button>
+      </div>
     </div>
-    <div class="fixed md:hidden top-14 right-0 w-full h-full bg-white main-px translate-y-full transition py-4"
+    <div
+      class="fixed md:hidden top-14 right-0 w-full h-full bg-white dark:bg-black dark:text-white main-px translate-y-full transition py-4"
       id="mobile-nav">
       <nav class="flex flex-col gap-8 items-start">
         <a href="" class="group transition duration-150 inline-block">Home
