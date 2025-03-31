@@ -41,3 +41,24 @@ let parallaxInstance = new Parallax(profileParallax, {
   clipRelativeInput: true
 });
 
+gsap.registerPlugin(ScrollTrigger);
+
+const splitTypes = document.querySelectorAll(".reveal-type")
+splitTypes.forEach((char, i) => {
+  const text = new SplitType(char, {
+    types: "words"
+  });
+
+  gsap.from(text.words, {
+    scrollTrigger: {
+      trigger: char,
+      start: 'top 80%',
+      end: 'top 40%',
+      scrub: true,
+      markers: false,
+    },
+    opacity: 0.2,
+    stagger: 0.1
+  })
+
+})
