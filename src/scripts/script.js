@@ -16,3 +16,9 @@ if (navButton && navIcon && mobileNav) {
     }
   });
 }
+
+let profileParallax = document.querySelector("#profile-parallax");
+let parallaxInstance = new Parallax(profileParallax, {
+  relativeInput: true, // Efek berdasarkan pergerakan mouse
+  clipRelativeInput: true
+});
