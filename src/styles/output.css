@@ -247,6 +247,7 @@
   .max-w-0 {
     max-width: calc(var(--spacing) * 0);
   }
+
   .-translate-x-12 {
     --tw-translate-x: calc(var(--spacing) * -12);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -267,6 +268,7 @@
     --tw-translate-y: calc(var(--spacing) * 48);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+
   .translate-y-full {
     --tw-translate-y: 100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
