@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx http-server ./src",
+    "dev": "npx http-server",
     "tailwind": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch"
   },
   "keywords": [],
@@ -13,7 +13,6 @@
   "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.0.17",
-    "http-server": "^14.1.1",
     "tailwindcss": "^4.0.17"
   }
 }
