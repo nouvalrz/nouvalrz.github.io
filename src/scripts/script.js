@@ -80,3 +80,32 @@ gsap.utils.toArray("#experience .experience-item").forEach((section) => {
   });
 });
 
+
+const cards = document.querySelectorAll(".tilt-card");
+
+if (cards.length != 0) {
+  cards.forEach((card) => {
+    const content = card.querySelector(".tilt-card-content")
+
+    card.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+
+      const percentX = (x - centerX) / centerX;
+      const percentY = -((y - centerY) / centerY);
+
+      card.style.transform = `perspective(1000px) rotateY(${percentX * 10}deg) rotateX(${percentY * 10}deg)`;
+      content.style.transform = `translateZ(50px)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'perspective(1000px) rotateY(0deg) rotateX(0deg)';
+      content.style.transform = 'translateZ(0px)';
+      // glow.style.opacity = '0';
+    });
+  })
+}
