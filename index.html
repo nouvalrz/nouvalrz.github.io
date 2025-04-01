@@ -26,33 +26,36 @@
 </head>
 
 
-<body class="transition bg-white dark:bg-black">
-  <header class="dark:bg-black fixed top-0 left-0 w-full main-px py-3 bg-white   z-[100]">
+<body class="bg-white dark:bg-black">
+  <header class="dark:bg-black/60 fixed top-0 left-0 w-full main-px py-3 bg-white/60   z-[100] backdrop-blur-sm">
     <div class="container flex items-center justify-between mx-auto text-black dark:text-white">
-      <p class="font-[Urbanist] text-2xl font-semibold">Nouval Rizky</p>
+      <div class="flex flex-row items-center gap-2">
+        <img src="./public/images/nouvalrz-logo.svg" alt="nouvalrz-logo" class="w-8">
+        <p class="font-[Urbanist] text-2xl font-semibold"> Nouval Rizky</p>
+      </div>
       <div class="flex flex-row gap-6">
         <nav class="flex-row items-center hidden gap-6 md:flex">
-          <a href="" class="inline-block transition duration-150 group">Home
+          <a href="#jumbotron" class="inline-block transition duration-150 group">Home
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="inline-block transition duration-150 group">About
+          <a href="#about" class="inline-block transition duration-150 group">About
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="inline-block transition duration-150 group">Experience
+          <a href="#experience" class="inline-block transition duration-150 group">Experience
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="inline-block transition duration-150 group">Projects
+          <a href="#projects" class="inline-block transition duration-150 group">Projects
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="inline-block transition duration-150 group">Certificates
+          <a href="#certificates" class="inline-block transition duration-150 group">Certificates
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="inline-block transition duration-150 group">Contact
+          <a href="#contact" class="inline-block transition duration-150 group">Contact
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
@@ -66,30 +69,30 @@
       </div>
     </div>
     <div
-      class="fixed right-0 w-full h-full py-4 transition translate-y-full bg-white md:hidden top-14 dark:bg-black dark:text-white main-px"
+      class="fixed right-0 w-full h-screen py-4 transition translate-y-full bg-white md:hidden top-14 dark:bg-black dark:text-white main-px backdrop-blur-lg"
       id="mobile-nav">
       <nav class="flex flex-col items-start gap-8">
-        <a href="" class="inline-block transition duration-150 group">Home
+        <a href="#jumbotron" class="inline-block transition duration-150 group">Home
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="inline-block transition duration-150 group">About
+        <a href="#about" class="inline-block transition duration-150 group">About
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="inline-block transition duration-150 group">Experience
+        <a href="#experience" class="inline-block transition duration-150 group">Experience
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="inline-block transition duration-150 group">Projects
+        <a href="#projects" class="inline-block transition duration-150 group">Projects
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="inline-block transition duration-150 group">Certificates
+        <a href="#certificates" class="inline-block transition duration-150 group">Certificates
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="inline-block transition duration-150 group">Contact
+        <a href="#contact" class="inline-block transition duration-150 group">Contact
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
@@ -102,7 +105,7 @@
       <div class="container mx-auto flex lg:flex-row lg:justify-between flex-col items-center gap-8 lg:min-h-[480px]">
         <div class="flex flex-col items-center order-5 lg:order-0 dark:text-white lg:items-start">
           <h1 class="font-[Urbanist] font-bold text-5xl md:text-6xl lg:text-7xl">Nouval Rizky</h1>
-          <p class="">a <span class="font-[Caveat] text-3xl mx-1 text-rose-500 dark:text-rose-400">frontend</span>
+          <p class="">a <span class="font-[Caveat] text-3xl mx-1 text-pink-500 dark:text-pink-400">frontend</span>
             developer</p>
           <a href="#about"
             class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  mt-4 lg:mt-6">About
@@ -137,9 +140,10 @@
       <div class="container mx-auto text-base leading-8 lg:text-lg lg:leading-12 md:leading-10">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Who am i?</h2>
         <p class="mt-6 reveal-type text-pretty"><b>A front-end developer</b> passionate about software development for
-          <span class="text-sky-700">websites and mobile apps</span>.
+          <span class="text-cyan-500 dark:text-cyan-400">websites and mobile apps</span>.
           Skilled in using
-          frameworks like <span class="text-teal-600">React, React Native, Flutter, and Vue</span>. Has over 2 years
+          frameworks like <span class="text-pink-500 dark:text-pink-400">React, React Native, Flutter, and Vue</span>.
+          Has over 2 years
           of experience at Timedoor Academy as a
           coding mentor in teaching website development, mobile applications, and games.
           Has taught over 100 students of
@@ -148,7 +152,7 @@
         </p>
       </div>
     </section>
-    <section id="experience" class="py-6 bg-gray-100 main-px dark:bg-gray-900 dark:text-white">
+    <section id="experience" class="py-6 bg-gray-100 main-px dark:bg-gray-900 dark:text-white scroll-mt-16">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Experience</h2>
         <div class="flex flex-col gap-6 mt-6">
@@ -252,7 +256,7 @@
         </div>
       </div>
     </section>
-    <section id="projects" class="py-6 bg-white main-px dark:bg-black dark:text-white">
+    <section id="projects" class="py-6 bg-white main-px dark:bg-black dark:text-white scroll-mt-16">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Projects</h2>
         <div class="grid grid-cols-1 gap-4 mt-6 md:grid-cols-2 lg:grid-cols-4 md:gap-6">
@@ -535,7 +539,7 @@
         </div>
       </div>
     </section>
-    <section id="certificates" class="py-6 main-px dark:text-white bg-gray-50 dark:bg-gray-950">
+    <section id="certificates" class="py-6 main-px dark:text-white bg-gray-50 dark:bg-gray-950 scroll-mt-16">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Certificates</h2>
         <div class="grid grid-cols-1 gap-4 mt-6 md:grid-cols-2 md:gap-6">
@@ -653,7 +657,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="py-6 main-px dark:text-white">
+    <section id="contact" class="py-6 main-px dark:text-white scroll-mt-16">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Contact</h2>
         <div class="flex flex-col gap-6 mt-6 lg:flex-row lg:justify-between">
