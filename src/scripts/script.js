@@ -1,3 +1,4 @@
+
 const navButton = document.querySelector("#nav-button");
 const navIcon = document.querySelector("#nav-icon");
 const mobileNav = document.querySelector("#mobile-nav");
@@ -59,7 +60,7 @@ splitTypes.forEach((char, i) => {
       markers: false,
     },
     opacity: 0.2,
-    stagger: 0.1
+    stagger: 0.7
   })
 
 })
@@ -75,6 +76,50 @@ gsap.utils.toArray("#experience .experience-item").forEach((section) => {
     ease: "power3.out",
     scrollTrigger: {
       trigger: section,
+      start: "top 80%",
+      toggleActions: "play none none none",
+    },
+  });
+});
+
+gsap.utils.toArray(".skill-item").forEach((item, index) => {
+  gsap.from(item, {
+    opacity: 0,
+    y: 20,
+    duration: 0.3,
+    ease: "power2.in",
+    delay: index * 0.15,
+    scrollTrigger: {
+      trigger: item,
+      start: "top 80%",
+      toggleActions: "play none none none",
+    },
+  });
+});
+
+gsap.utils.toArray(".tilt-card").forEach((item, index) => {
+  gsap.from(item, {
+    opacity: 0,
+    y: 20,
+    duration: 0.3,
+    ease: "power2.in",
+    scrollTrigger: {
+      trigger: item,
+      start: "top 80%",
+      toggleActions: "play none none none",
+    },
+    onComplete: () => gsap.set(item, { clearProps: "transform" })
+  });
+});
+
+gsap.utils.toArray(".certificate-item").forEach((item, index) => {
+  gsap.from(item, {
+    opacity: 0,
+    y: 20,
+    duration: 0.3,
+    ease: "power2.in",
+    scrollTrigger: {
+      trigger: item,
       start: "top 80%",
       toggleActions: "play none none none",
     },
