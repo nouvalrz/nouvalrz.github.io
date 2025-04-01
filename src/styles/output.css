@@ -297,6 +297,12 @@
       max-width: 96rem;
     }
   }
+  .mx-1 {
+    margin-inline: calc(var(--spacing) * 1);
+  }
+  .mx-2 {
+    margin-inline: calc(var(--spacing) * 2);
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -377,9 +383,6 @@
   }
   .flex-\[5\] {
     flex: 5;
-  }
-  .flex-\[6\] {
-    flex: 6;
   }
   .-translate-x-12 {
     --tw-translate-x: calc(var(--spacing) * -12);
@@ -568,6 +571,9 @@
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
+  }
+  .font-\[Caveat\] {
+    font-family: Caveat;
   }
   .font-\[Urbanist\] {
     font-family: Urbanist;
