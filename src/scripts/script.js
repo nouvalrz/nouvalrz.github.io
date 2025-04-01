@@ -37,9 +37,10 @@ if (themeButton && themeIcon) {
 
 let profileParallax = document.querySelector("#profile-parallax");
 let parallaxInstance = new Parallax(profileParallax, {
-  relativeInput: true, // Efek berdasarkan pergerakan mouse
+  relativeInput: true,
   clipRelativeInput: true
 });
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -109,3 +110,14 @@ if (cards.length != 0) {
     });
   })
 }
+
+
+const userAgent = navigator.userAgent.toLowerCase();
+const platform = navigator.platform.toLowerCase();
+const hoverBadge = document.querySelector("#hover-badge");
+
+if (/android/.test(userAgent)) {
+  hoverBadge.querySelector("p").innerText = "👋 tilt me"
+} else if (/iphone|ipad|ipod/.test(userAgent)) {
+  hoverBadge.style.display = "none";
+} 
