@@ -375,8 +375,11 @@
   .flex-\[1\] {
     flex: 1;
   }
-  .flex-\[7\] {
-    flex: 7;
+  .flex-\[5\] {
+    flex: 5;
+  }
+  .flex-\[6\] {
+    flex: 6;
   }
   .-translate-x-12 {
     --tw-translate-x: calc(var(--spacing) * -12);
