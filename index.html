@@ -26,33 +26,33 @@
 </head>
 
 
-<body class="transition dark:bg-black bg-white h-[2000px]">
+<body class="transition bg-white dark:bg-black">
   <header class="dark:bg-black fixed top-0 left-0 w-full main-px py-3 bg-white   z-[100]">
-    <div class="container dark:text-white text-black flex mx-auto justify-between items-center">
+    <div class="container flex items-center justify-between mx-auto text-black dark:text-white">
       <p class="font-[Urbanist] text-2xl font-semibold">Nouval Rizky</p>
       <div class="flex flex-row gap-6">
-        <nav class="md:flex hidden flex-row gap-6 items-center">
-          <a href="" class="group transition duration-150 inline-block">Home
+        <nav class="flex-row items-center hidden gap-6 md:flex">
+          <a href="" class="inline-block transition duration-150 group">Home
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="group transition duration-150 inline-block">About
+          <a href="" class="inline-block transition duration-150 group">About
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="group transition duration-150 inline-block">Experience
+          <a href="" class="inline-block transition duration-150 group">Experience
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="group transition duration-150 inline-block">Projects
+          <a href="" class="inline-block transition duration-150 group">Projects
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="group transition duration-150 inline-block">Certificates
+          <a href="" class="inline-block transition duration-150 group">Certificates
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
-          <a href="" class="group transition duration-150 inline-block">Contact
+          <a href="" class="inline-block transition duration-150 group">Contact
             <span
               class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
           </a>
@@ -60,36 +60,36 @@
         <button id="theme-button">
           <i class="fa-solid fa-sun" id="theme-icon"></i>
         </button>
-        <button class="md:hidden block" id="nav-button">
+        <button class="block md:hidden" id="nav-button">
           <i class="fa-solid fa-bars" id="nav-icon"></i>
         </button>
       </div>
     </div>
     <div
-      class="fixed md:hidden top-14 right-0 w-full h-full bg-white dark:bg-black dark:text-white main-px translate-y-full transition py-4"
+      class="fixed right-0 w-full h-full py-4 transition translate-y-full bg-white md:hidden top-14 dark:bg-black dark:text-white main-px"
       id="mobile-nav">
-      <nav class="flex flex-col gap-8 items-start">
-        <a href="" class="group transition duration-150 inline-block">Home
+      <nav class="flex flex-col items-start gap-8">
+        <a href="" class="inline-block transition duration-150 group">Home
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="group transition duration-150 inline-block">About
+        <a href="" class="inline-block transition duration-150 group">About
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="group transition duration-150 inline-block">Experience
+        <a href="" class="inline-block transition duration-150 group">Experience
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="group transition duration-150 inline-block">Projects
+        <a href="" class="inline-block transition duration-150 group">Projects
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="group transition duration-150 inline-block">Certificates
+        <a href="" class="inline-block transition duration-150 group">Certificates
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
-        <a href="" class="group transition duration-150 inline-block">Contact
+        <a href="" class="inline-block transition duration-150 group">Contact
           <span
             class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-black dark:bg-white"></span>
         </a>
@@ -97,37 +97,37 @@
     </div>
   </header>
   <main class="mt-16">
-    <section id="jumbotron" class="main-px py-6">
+    <section id="jumbotron" class="py-6 main-px">
       <div class="container mx-auto flex lg:flex-row lg:justify-between flex-col items-center gap-8 lg:min-h-[480px]">
-        <div class="order-5 lg:order-0 dark:text-white flex flex-col lg:items-start items-center">
+        <div class="flex flex-col items-center order-5 lg:order-0 dark:text-white lg:items-start">
           <h1 class="font-[Urbanist] font-bold text-5xl md:text-6xl">Nouval Rizky</h1>
           <p class="">a frontend developer</p>
           <a href="#about"
             class="inline-block border border-black py-2 px-3 min-h-[44px] rounded text-black hover:bg-black hover:text-white transition mt-4 lg:mt-6 dark:border-white dark:text-white hover:dark:bg-white hover:dark:text-black">About
             me</a>
         </div>
-        <div class="text-white relative" id="profile-parallax">
+        <div class="relative text-white" id="profile-parallax">
           <div data-depth="0.3">
-            <img src="./public/images/profile.webp" alt="profile-picture" class="rounded-full w-64">
+            <img src="./public/images/profile.webp" alt="profile-picture" class="w-64 rounded-full">
           </div>
           <div data-depth="0.6"
-            class="bg-white shadow-lg font-semibold  text-black p-1 rounded -translate-x-12 translate-y-12">
+            class="p-1 font-semibold text-black -translate-x-12 translate-y-12 bg-white rounded shadow-lg">
             <p>Observational</p>
           </div>
           <div data-depth="0.5"
-            class="bg-white shadow-lg font-semibold  text-black p-1 rounded translate-x-56 translate-y-24">
+            class="p-1 font-semibold text-black translate-x-56 translate-y-24 bg-white rounded shadow-lg">
             <p>Logical</p>
           </div>
-          <div data-depth="0.7" class="bg-white shadow-lg font-semibold  text-black p-1 rounded translate-y-48">
+          <div data-depth="0.7" class="p-1 font-semibold text-black translate-y-48 bg-white rounded shadow-lg">
             <p>Creative</p>
           </div>
         </div>
       </div>
     </section>
-    <section id="about" class="main-px py-6 bg-gray-50 scroll-mt-16 dark:bg-gray-950 dark:text-white">
-      <div class="container mx-auto text-base lg:text-lg lg:leading-12 md:leading-10 leading-8">
+    <section id="about" class="py-6 main-px bg-gray-50 scroll-mt-16 dark:bg-gray-950 dark:text-white">
+      <div class="container mx-auto text-base leading-8 lg:text-lg lg:leading-12 md:leading-10">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Who am i?</h2>
-        <p class="reveal-type text-pretty mt-6"><b>A front-end developer</b> passionate about software development for
+        <p class="mt-6 reveal-type text-pretty"><b>A front-end developer</b> passionate about software development for
           <span class="text-sky-700">websites and mobile apps</span>.
           Skilled in using
           frameworks like <span class="text-teal-600">React, React Native, Flutter, and Vue</span>. Has over 2 years
@@ -139,383 +139,383 @@
         </p>
       </div>
     </section>
-    <section id="experience" class="main-px py-6 bg-gray-100 dark:bg-gray-900 dark:text-white">
+    <section id="experience" class="py-6 bg-gray-100 main-px dark:bg-gray-900 dark:text-white">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Experience</h2>
-        <div class="mt-6 flex flex-col gap-6">
-          <div class="experience-item flex lg:flex-row flex-col items-start gap-2 lg:gap-6">
+        <div class="flex flex-col gap-6 mt-6">
+          <div class="flex flex-col items-start gap-2 experience-item lg:flex-row lg:gap-6">
             <div class="flex-[1]">
               <div
-                class="inline-block border border-gray-300 dark:border-gray-700 rounded py-2 px-4 bg-white dark:bg-black">
+                class="inline-block px-4 py-2 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black">
                 <p>Nov 2022 - Present</p>
               </div>
             </div>
             <div class="flex-[7] border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black">
-              <div class="flex flex-row gap-2 items-center">
+              <div class="flex flex-row items-center gap-2">
                 <img src="./public/images/pt_timedoor_indonesia_logo.jpeg" alt="pt_timedoor_indonesia_logo"
-                  class="rounded w-12">
+                  class="w-12 rounded">
                 <div>
-                  <h3 class="text-lg md:text-xl font-semibold">Coding Mentor</h3>
+                  <h3 class="text-lg font-semibold md:text-xl">Coding Mentor</h3>
                   <p class="text-sm text-gray-700 dark:text-gray-400">Timedoor Academy, Denpasar</p>
                 </div>
               </div>
               <p class="mt-4">Teaching coding with various tech stacks such as website development (HTML/CSS/JS), mobile
                 applications
                 (React Native), and frontend websites (Vue JS)</p>
-              <div class="mt-2 flex flex-row gap-2">
+              <div class="flex flex-row gap-2 mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-800 rounded-md bg-yellow-50 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">React
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-blue-700 rounded-md bg-blue-50 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">React
                   Native</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset dark:bg-green-900 dark:text-green-300 dark:ring-green-600/50">Vue
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-green-700 rounded-md bg-green-50 ring-1 ring-green-600/20 ring-inset dark:bg-green-900 dark:text-green-300 dark:ring-green-600/50">Vue
                   JS</span>
               </div>
-              <div class="mt-6 flex flex-row gap-4 items-start overflow-x-auto">
+              <div class="flex flex-row items-start gap-4 mt-6 overflow-x-auto">
                 <img src="./public/images/coding-mentor-1.webp" alt="coding-mentor-1"
-                  class="rounded object-cover w-64 h-32">
+                  class="object-cover w-64 h-32 rounded">
                 <img src="./public/images/coding-mentor-2.webp" alt="coding-mentor-2"
-                  class="rounded object-cover w-64 h-32">
+                  class="object-cover w-64 h-32 rounded">
               </div>
             </div>
           </div>
-          <div class="experience-item flex lg:flex-row flex-col items-start gap-2 lg:gap-6 ">
+          <div class="flex flex-col items-start gap-2 experience-item lg:flex-row lg:gap-6 ">
             <div class="flex-[1]">
               <div
-                class="inline-block border border-gray-300 dark:border-gray-700 rounded py-2 px-4 bg-white dark:bg-black">
+                class="inline-block px-4 py-2 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black">
                 <p>Mar - May 2024</p>
               </div>
             </div>
             <div class="flex-[7] border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black">
-              <div class="flex flex-row gap-2 items-center">
-                <img src="./public/images/teach4hope_logo.jpeg" alt="teach4hope_logo" class="rounded w-12">
+              <div class="flex flex-row items-center gap-2">
+                <img src="./public/images/teach4hope_logo.jpeg" alt="teach4hope_logo" class="w-12 rounded">
                 <div>
-                  <h3 class="text-lg md:text-xl font-semibold">Front-end Website Mentor</h3>
+                  <h3 class="text-lg font-semibold md:text-xl">Front-end Website Mentor</h3>
                   <p class="text-sm text-gray-700 dark:text-gray-400">Teach4Hope by KitaBisa, Denpasar</p>
                 </div>
               </div>
               <p class="mt-4">Becoming a front end development teacher in the Teach 4 Hope program, a work training
                 scholarship held by Kitabisa.com for 3 months to teach Vue js, Bootstrap, AJAX, etc</p>
-              <div class="mt-2 flex flex-row gap-2">
+              <div class="flex flex-row gap-2 mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-800 rounded-md bg-yellow-50 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset dark:bg-green-900 dark:text-green-300 dark:ring-green-600/50">Vue
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-green-700 rounded-md bg-green-50 ring-1 ring-green-600/20 ring-inset dark:bg-green-900 dark:text-green-300 dark:ring-green-600/50">Vue
                   JS</span>
               </div>
-              <div class="mt-6 flex flex-row gap-4 items-start overflow-x-auto">
-                <img src="./public/images/teach4hope-1.jpeg" alt="teach4hope-1" class="rounded object-cover w-64 h-32">
-                <img src="./public/images/teach4hope-2.jpeg" alt="teach4hope-2" class="rounded object-cover w-64 h-32">
+              <div class="flex flex-row items-start gap-4 mt-6 overflow-x-auto">
+                <img src="./public/images/teach4hope-1.jpeg" alt="teach4hope-1" class="object-cover w-64 h-32 rounded">
+                <img src="./public/images/teach4hope-2.jpeg" alt="teach4hope-2" class="object-cover w-64 h-32 rounded">
               </div>
             </div>
           </div>
-          <div class="experience-item flex lg:flex-row flex-col items-start gap-2 lg:gap-6 ">
-            <div class="border border-gray-300 dark:border-gray-700 rounded py-2 px-4 bg-white dark:bg-black">
+          <div class="flex flex-col items-start gap-2 experience-item lg:flex-row lg:gap-6 ">
+            <div class="px-4 py-2 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black">
               <p>Nov 2022 - Present</p>
             </div>
             <div class="flex-[1] border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black">
-              <div class="flex flex-row gap-2 items-center">
-                <img src="./public/images/edukita-logo.jpeg" alt="edukita-logo" class="rounded w-12">
+              <div class="flex flex-row items-center gap-2">
+                <img src="./public/images/edukita-logo.jpeg" alt="edukita-logo" class="w-12 rounded">
                 <div>
-                  <h3 class="text-lg md:text-xl font-semibold">Back-end Engineer Intern</h3>
+                  <h3 class="text-lg font-semibold md:text-xl">Back-end Engineer Intern</h3>
                   <p class="text-sm text-gray-700 dark:text-gray-400">Edukita, Jakarta</p>
                 </div>
               </div>
               <p class="mt-4">Build the management system for courses, classrooms, and tutoring sessions by implementing
                 CRUD services using Ruby on Rails. Make business processes faster by 40% and office overhead 15%</p>
-              <div class="mt-2 flex flex-row gap-2">
+              <div class="flex flex-row gap-2 mt-2">
 
                 <span
-                  class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">Bootstrap</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-blue-700 rounded-md bg-blue-50 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">Bootstrap</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-red-600/10 ring-inset dark:bg-red-900 dark:text-red-300 dark:ring-red-600/50">Ruby
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-red-700 rounded-md bg-red-50 ring-1 ring-red-600/10 ring-inset dark:bg-red-900 dark:text-red-300 dark:ring-red-600/50">Ruby
                   on Rails</span>
               </div>
-              <div class="mt-6 flex flex-row gap-4 items-start overflow-x-auto">
-                <img src="./public/images/edukita-1.webp" alt="edukita-1" class="rounded object-cover w-64 h-32">
+              <div class="flex flex-row items-start gap-4 mt-6 overflow-x-auto">
+                <img src="./public/images/edukita-1.webp" alt="edukita-1" class="object-cover w-64 h-32 rounded">
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="projects" class="main-px py-6 bg-white dark:bg-black dark:text-white">
+    <section id="projects" class="py-6 bg-white main-px dark:bg-black dark:text-white">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Projects</h2>
-        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div class="grid grid-cols-1 gap-4 mt-6 md:grid-cols-2 lg:grid-cols-4 md:gap-6">
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 h-full flex flex-col">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/forumly.webp" alt="forumly">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Forumly</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Forumly</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">A mobile-friendly forum website</p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-sky-50 px-2 py-1 text-xs font-medium text-sky-800 ring-1 ring-sky-600/20 ring-inset dark:bg-sky-900 dark:text-sky-300 dark:ring-sky-600/50">Tailwind
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-sky-50 text-sky-800 ring-1 ring-sky-600/20 ring-inset dark:bg-sky-900 dark:text-sky-300 dark:ring-sky-600/50">Tailwind
                   CSS</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">React</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-blue-700 rounded-md bg-blue-50 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">React</span>
               </div>
 
               <div class=" flex flex-row gap-3 items-end flex-[1] mt-6">
                 <a href="https://github.com/nouvalrz/forumly" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://forumly.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 h-full flex flex-col">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/loaf-coffee.webp" alt="loaf-coffee">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Loaf Coffee</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Loaf Coffee</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">Coffee Shop Landing Page</p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-800 rounded-md bg-yellow-50 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-sky-50 px-2 py-1 text-xs font-medium text-sky-800 ring-1 ring-sky-600/20 ring-inset dark:bg-sky-900 dark:text-sky-300 dark:ring-sky-600/50">Tailwind
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-sky-50 text-sky-800 ring-1 ring-sky-600/20 ring-inset dark:bg-sky-900 dark:text-sky-300 dark:ring-sky-600/50">Tailwind
                   CSS</span>
               </div>
 
               <div class=" flex flex-row gap-3 items-end flex-[1] mt-6">
                 <a href="https://github.com/nouvalrz/loaf-coffee" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://loaf-coffee.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/where-the-food.webp" alt="where-the-food">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Where the Food</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Where the Food</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">Restaurant Recommendation Website</p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">Javascript</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-800 rounded-md bg-yellow-50 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">Javascript</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-lime-50 px-2 py-1 text-xs font-medium text-lime-700 ring-1 ring-lime-700/10 ring-inset dark:bg-lime-900 dark:text-lime-300 dark:ring-lime-700/50">End
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-lime-50 text-lime-700 ring-1 ring-lime-700/10 ring-inset dark:bg-lime-900 dark:text-lime-300 dark:ring-lime-700/50">End
                   to end testing</span>
               </div>
 
               <div class="flex-[1] flex flex-row gap-3 items-end mt-6">
                 <a href="https://github.com/nouvalrz/restaurant-web" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://where-the-food.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/write-it.webp" alt="write-it">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Write It</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Write It</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">A website for storing notes made with React</p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">React</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-blue-700 rounded-md bg-blue-50 ring-1 ring-blue-700/10 ring-inset dark:bg-blue-900 dark:text-blue-300 dark:ring-blue-700/50">React</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-rose-50 px-2 py-1 text-xs font-medium text-rose-800 ring-1 ring-rose-600/20 ring-inset dark:bg-rose-900 dark:text-rose-300 dark:ring-rose-600/50">Ajax</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-rose-50 text-rose-800 ring-1 ring-rose-600/20 ring-inset dark:bg-rose-900 dark:text-rose-300 dark:ring-rose-600/50">Ajax</span>
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/writeit-spa-hooks" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://write-it.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/story-app.webp" alt="story-app">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Story App</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Story App</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">Social Media app using Lit Element and Localization
               </p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-slate-50 px-2 py-1 text-xs font-medium text-slate-700 ring-1 ring-slate-700/10 ring-inset dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700/50">Web
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-slate-50 text-slate-700 ring-1 ring-slate-700/10 ring-inset dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700/50">Web
                   Component</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-800 ring-1 ring-indigo-600/20 ring-inset dark:bg-indigo-900 dark:text-indigo-300 dark:ring-indigo-600/50">Bootstrap</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-indigo-800 rounded-md bg-indigo-50 ring-1 ring-indigo-600/20 ring-inset dark:bg-indigo-900 dark:text-indigo-300 dark:ring-indigo-600/50">Bootstrap</span>
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/story-app" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://story-app.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/casa-shoes.webp" alt="casa-shoes">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Casa Shoes</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Casa Shoes</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">Shoes & Sneakers Landing Page
               </p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-800 rounded-md bg-yellow-50 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
 
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/casa-shoes-web" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://casa.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/note-app.webp" alt="note-app">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Note App</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Note App</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">CRUD note webiste using native web component
               </p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-slate-50 px-2 py-1 text-xs font-medium text-slate-700 ring-1 ring-slate-700/10 ring-inset dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700/50">Web
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-slate-50 text-slate-700 ring-1 ring-slate-700/10 ring-inset dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700/50">Web
                   Component</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-800 rounded-md bg-yellow-50 ring-1 ring-yellow-600/20 ring-inset dark:bg-yellow-900 dark:text-yellow-300 dark:ring-yellow-600/50">HTML/CSS/JS</span>
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/note-app-vanilla-js" target="_blank"
                   class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
                 <a href="https://note.nouval.site" target="_blank"
                   class="flex-[1] inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white hover:scale-105 transition"><i
-                    class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                    class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/mivapos.webp" alt="miva_pos_app">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Miva POS</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Miva POS</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">Offline-first mobile POS application built with
                 Flutter
               </p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-cyan-50 px-2 py-1 text-xs font-medium text-cyan-700 ring-1 ring-cyan-700/10 ring-inset dark:bg-cyan-900 dark:text-cyan-300 dark:ring-cyan-700/50">Flutter</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-cyan-50 text-cyan-700 ring-1 ring-cyan-700/10 ring-inset dark:bg-cyan-900 dark:text-cyan-300 dark:ring-cyan-700/50">Flutter</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-stone-50 px-2 py-1 text-xs font-medium text-stone-800 ring-1 ring-stone-600/20 ring-inset dark:bg-stone-900 dark:text-stone-300 dark:ring-stone-600/50">SQLite</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-stone-50 text-stone-800 ring-1 ring-stone-600/20 ring-inset dark:bg-stone-900 dark:text-stone-300 dark:ring-stone-600/50">SQLite</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-800 ring-1 ring-emerald-600/20 ring-inset dark:bg-emerald-900 dark:text-emerald-300 dark:ring-emerald-600/50">Supabase</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-emerald-50 text-emerald-800 ring-1 ring-emerald-600/20 ring-inset dark:bg-emerald-900 dark:text-emerald-300 dark:ring-emerald-600/50">Supabase</span>
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/miva_pos_app" target="_blank"
                   class="inline-flex flex-[1] items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/kateringku.webp" alt="kateringku">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Kateringku</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Kateringku</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">Mobile food and catering marketplace
               </p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-cyan-50 px-2 py-1 text-xs font-medium text-cyan-700 ring-1 ring-cyan-700/10 ring-inset dark:bg-cyan-900 dark:text-cyan-300 dark:ring-cyan-700/50">Flutter</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-cyan-50 text-cyan-700 ring-1 ring-cyan-700/10 ring-inset dark:bg-cyan-900 dark:text-cyan-300 dark:ring-cyan-700/50">Flutter</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-800 ring-1 ring-red-600/20 ring-inset dark:bg-red-900 dark:text-red-300 dark:ring-red-600/50">Laravel</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-red-800 rounded-md bg-red-50 ring-1 ring-red-600/20 ring-inset dark:bg-red-900 dark:text-red-300 dark:ring-red-600/50">Laravel</span>
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/kateringku_mobile" target="_blank"
                   class="inline-flex flex-[1] items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
               </div>
             </div>
           </div>
 
           <div
-            class="rounded  border border-gray-300 dark:border-gray-700  tilt-card relative transition-all duration-300 ease-out hover:scale-105">
-            <div class="tilt-card-content  relative z-10 p-4 flex flex-col h-full">
+            class="relative transition-all duration-300 ease-out border border-gray-300 rounded dark:border-gray-700 tilt-card hover:scale-105">
+            <div class="relative z-10 flex flex-col h-full p-4 tilt-card-content">
               <div class="rounded overflow-clip">
                 <img src="./public/images/course-report-management.webp" alt="course-report-management">
               </div>
-              <h3 class="text-lg md:text-xl font-semibold mt-4">Course Report Management</h3>
+              <h3 class="mt-4 text-lg font-semibold md:text-xl">Course Report Management</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">A management system for student reports for school and
                 tutoring center
               </p>
 
               <div class="mt-2">
                 <span
-                  class="inline-flex items-center rounded-md bg-zinc-50 px-2 py-1 text-xs font-medium text-zinc-700 ring-1 ring-zinc-700/10 ring-inset dark:bg-zinc-900 dark:text-zinc-300 dark:ring-zinc-700/50">AdminLTE3</span>
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md bg-zinc-50 text-zinc-700 ring-1 ring-zinc-700/10 ring-inset dark:bg-zinc-900 dark:text-zinc-300 dark:ring-zinc-700/50">AdminLTE3</span>
                 <span
-                  class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-800 ring-1 ring-red-600/20 ring-inset dark:bg-red-900 dark:text-red-300 dark:ring-red-600/50">Ruby
+                  class="inline-flex items-center px-2 py-1 text-xs font-medium text-red-800 rounded-md bg-red-50 ring-1 ring-red-600/20 ring-inset dark:bg-red-900 dark:text-red-300 dark:ring-red-600/50">Ruby
                   on Rails</span>
               </div>
 
               <div class="mt-6 flex-[1] flex flex-row gap-3 items-end">
                 <a href="https://github.com/nouvalrz/course_report_management" target="_blank"
                   class="inline-flex flex-[1] items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition"><i
-                    class="fa-brands fa-github mr-2"></i>Github</a>
+                    class="mr-2 fa-brands fa-github"></i>Github</a>
               </div>
             </div>
           </div>
@@ -523,121 +523,184 @@
         </div>
       </div>
     </section>
-    <section id="certificates" class="main-px py-6 dark:text-white bg-gray-50 dark:bg-gray-950">
+    <section id="certificates" class="py-6 main-px dark:text-white bg-gray-50 dark:bg-gray-950">
       <div class="container mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Certificates</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 mt-6  gap-4 md:gap-6">
+        <div class="grid grid-cols-1 gap-4 mt-6 md:grid-cols-2 md:gap-6">
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/dibimbing-logo.webp" alt="dibimbing-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/dibimbing-logo.webp" alt="dibimbing-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">Front End Web Development 6 Month Bootcamp</h3>
+              <h3 class="text-lg font-semibold md:text-xl">Front End Web Development 6 Month Bootcamp</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by Dibimbing.id, Jul 2025 (Ongoing)</p>
 
               <a href="https://dibimbing.id/layanan/bootcamp/front-end-web-development" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Visit</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Visit</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">Belajar Fundamental Aplikasi Web dengan React</h3>
+              <h3 class="text-lg font-semibold md:text-xl">Belajar Fundamental Aplikasi Web dengan React</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by Dicoding Indonesia, Jan 2025</p>
 
               <a href="https://www.dicoding.com/certificates/53XEDWNWYPRN" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">
+              <h3 class="text-lg font-semibold md:text-xl">
                 Belajar Membuat Aplikasi Web dengan React</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by Dicoding Indonesia, Nov 2024</p>
 
               <a href="https://www.dicoding.com/certificates/JLX14JW62X72" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">Menjadi Front-End Web Developer Expert</h3>
+              <h3 class="text-lg font-semibold md:text-xl">Menjadi Front-End Web Developer Expert</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by Dicoding Indonesia, Nov 2024</p>
 
               <a href="https://www.dicoding.com/certificates/QLZ9VOMJEX5D" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/dicoding-logo.webp" alt="dicoding-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">Belajar Fundamental Front-End Web Development</h3>
+              <h3 class="text-lg font-semibold md:text-xl">Belajar Fundamental Front-End Web Development</h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by Dicoding Indonesia, Oct 2024</p>
 
               <a href="https://www.dicoding.com/certificates/N9ZOY5YK6PG5" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/goto-logo.jpeg" alt="goto-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/goto-logo.jpeg" alt="goto-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">Backend Engineering from Generasi GIGIH 2.0 by YABB & GoTo
+              <h3 class="text-lg font-semibold md:text-xl">Backend Engineering from Generasi GIGIH 2.0 by YABB & GoTo
               </h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by GoTo Impact Foundation, Aug 2022</p>
 
               <a href="https://www.linkedin.com/posts/nouvalrz_certificate-activity-6977543206129344512-0lEh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADBllYgB9UNfEV-lDurs0TIKR9C5fmiVq64"
                 target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/efset-logo.png" alt="efset-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/efset-logo.png" alt="efset-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">EF SET English Certificate (C1 Advanced)
+              <h3 class="text-lg font-semibold md:text-xl">EF SET English Certificate (C1 Advanced)
               </h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by EF SET, Jan 2025</p>
 
               <a href="https://cert.efset.org/en/PHZBAV" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
           <div
-            class="border border-gray-300 dark:border-gray-700 rounded p-4 bg-white dark:bg-black flex flex-col lg:flex-row gap-4 items-start">
-            <img src="./public/images/progate-logo.webp" alt="progate-logo" class="w-18 h-auto rounded">
+            class="flex flex-col items-start gap-4 p-4 bg-white border border-gray-300 rounded dark:border-gray-700 dark:bg-black lg:flex-row">
+            <img src="./public/images/progate-logo.webp" alt="progate-logo" class="h-auto rounded w-18">
             <div>
-              <h3 class="text-lg md:text-xl font-semibold">JavaScript Course
+              <h3 class="text-lg font-semibold md:text-xl">JavaScript Course
               </h3>
               <p class="text-sm text-gray-700 dark:text-gray-400">by Progate, Mar 2022</p>
 
               <a href="https://progate.com/course_certificate/973f34e6r8cz38" target="_blank"
                 class="inline-flex  items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-100 dark:bg-gray-900 font-semibold text-sm  hover:scale-105 transition mt-4"><i
-                  class="fa-solid fa-up-right-from-square mr-2"></i>Credential</a>
+                  class="mr-2 fa-solid fa-up-right-from-square"></i>Credential</a>
             </div>
           </div>
 
 
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-6 main-px">
+      <div class="container mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold font-[Urbanist]">Contact</h2>
+        <div class="flex flex-col gap-6 mt-6 lg:flex-row lg:justify-between">
+          <div>
+            <h3 class="text-lg font-semibold md:text-xl">Follow me through social media</h3>
+            <div class="grid grid-cols-1 gap-6 mt-8 lg:grid-cols-4 md:grid-cols-3">
+              <div>
+                <div><i class="text-3xl fa-brands fa-linkedin"></i></div>
+                <a href="https://www.linkedin.com/in/nouvalrz/" class="underline" target="_blank">Nouval Rizky</a>
+              </div>
+
+              <div>
+                <div><i class="text-3xl fa-brands fa-github"></i></div>
+                <a href="https://github.com/nouvalrz/" class="underline" target="_blank">nouvalrz</a>
+              </div>
+
+              <div>
+                <div><i class="text-3xl fa-brands fa-instagram"></i></div>
+                <a href="https://github.com/nouvalrz/" class="underline" target="_blank">@nouvalrz</a>
+              </div>
+
+              <div>
+                <div><i class="text-3xl fa-brands fa-medium"></i></div>
+                <a href="https://medium.com/@nouvalrz" class="underline" target="_blank">Nouval Rizky</a>
+              </div>
+
+              <div>
+                <div><i class="text-3xl fa-solid fa-envelope"></i></i></div>
+                <a href="mailto:nouvalr@gmail.com" class="underline" target="_blank">nouvalr@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="flex-[1]">
+            <div class="p-4 border border-gray-300 rounded dark:border-gray-700">
+              <h3 class="text-lg font-semibold md:text-xl">Get in touch or hire me</h3>
+              <form action="https://formspree.io/f/xovengee" method="POST" class="flex flex-col gap-4 mt-8">
+                <div>
+                  <label for="name" class="inline-block">Name</label>
+                  <input type="text" name="name" id="name"
+                    class="block w-full px-4 py-2 mt-2 border border-gray-300 rounded dark:border-gray-700">
+                </div>
+                <div>
+                  <label for="email" class="inline-block">Email</label>
+                  <input type="email" name="email" id="email"
+                    class="block w-full px-4 py-2 mt-2 border border-gray-300 rounded dark:border-gray-700">
+                </div>
+                <div>
+                  <label for="message" class="inline-block">Message</label>
+                  <textarea type="text" name="message" id="message"
+                    class="block w-full px-4 py-2 mt-2 border border-gray-300 rounded dark:border-gray-700"
+                    rows="5"></textarea>
+                </div>
+                <div>
+                  <input type="submit" value="Send Message"
+                    class="inline-flex items-center justify-center  py-2 px-3 min-h-[44px] min-w-[88px] rounded bg-gray-800 font-semibold text-sm text-white cursor-pointer">
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -309,6 +309,9 @@
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
+  }
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
@@ -339,14 +342,17 @@
   .h-32 {
     height: calc(var(--spacing) * 32);
   }
-  .h-\[2000px\] {
-    height: 2000px;
-  }
   .h-auto {
     height: auto;
   }
   .h-full {
     height: 100%;
+  }
+  .min-h-52 {
+    min-height: calc(var(--spacing) * 52);
+  }
+  .min-h-96 {
+    min-height: calc(var(--spacing) * 96);
   }
   .min-h-\[44px\] {
     min-height: 44px;
@@ -357,9 +363,6 @@
   .w-18 {
     width: calc(var(--spacing) * 18);
   }
-  .w-24 {
-    width: calc(var(--spacing) * 24);
-  }
   .w-64 {
     width: calc(var(--spacing) * 64);
   }
@@ -368,6 +371,9 @@
   }
   .max-w-0 {
     max-width: calc(var(--spacing) * 0);
+  }
+  .min-w-96 {
+    min-width: calc(var(--spacing) * 96);
   }
   .min-w-\[88px\] {
     min-width: 88px;
@@ -405,6 +411,9 @@
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
   .scroll-mt-16 {
     scroll-margin-top: calc(var(--spacing) * 16);
   }
@@ -416,9 +425,6 @@
   }
   .flex-row {
     flex-direction: row;
-  }
-  .flex-wrap {
-    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -569,6 +575,10 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -664,6 +674,9 @@
   }
   .text-zinc-700 {
     color: var(--color-zinc-700);
+  }
+  .underline {
+    text-decoration-line: underline;
   }
   .shadow-lg {
     --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
@@ -786,6 +799,11 @@
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+  .md\:grid-cols-3 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
   .md\:gap-6 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 6);
@@ -828,6 +846,16 @@
   .lg\:min-h-\[480px\] {
     @media (width >= 64rem) {
       min-height: 480px;
+    }
+  }
+  .lg\:grid-cols-2 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-3 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .lg\:grid-cols-4 {
